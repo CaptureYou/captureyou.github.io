@@ -265,12 +265,20 @@
     <div class="section-title wow fadeInDown">
       <h2><strong>Contact</strong> us</h2>
       <hr>
-      <p>Feel free to reach out to us via email.</p>
+      <p>Interested? Give us your email and we'll be sure to email with updates</p>
     </div>
-    <form action="http://formspree.io/captureyouinfo@gmail.com" method="POST">
-      <input type="email"  placeholder="Enter email" class="form-control" id="email" name="_replyto">
+    <h3 style="display: inline-block; padding-right: 10px;">I want a photographer:</h3>
+    <form action="/" name="uploadData" id="forms" style="display: inline;">
+      <input type="email"  placeholder="Enter email" class="form-control" id="email" name="email">
       <input class="btn btn-default btn-sm"  type="submit" value="Send">
     </form>
+    <hr>
+    <h3 style="display: inline-block; padding-right: 10px;">I am a photographer:</h3>
+    <form action="/" name="uploadData2" id="formsphoto" style="display: inline;">
+      <input type="email"  placeholder="Enter email" class="form-control" id="email" name="email">
+      <input class="btn btn-default btn-sm"  type="submit" value="Send">
+    </form>
+    <hr>
     <div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-delay="200ms">
       <div class="col-md-4"> <i class="fa fa-map-marker fa-2x"></i>
         <p>Univeristy of Washington<br>
@@ -398,6 +406,7 @@
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/form.js"></script>
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script type="text/javascript" src="js/bootstrap.js"></script>
